@@ -8,7 +8,7 @@ The SAML protocol does not provide a way to query the IdP to learn about users a
 
 ## Provisioning When Users Come from an External Identity Provider<a name="provisioning-when-external-idp"></a>
 
-When using an external IdP, you must provision all users and groups into AWS SSO before you can make any assignments to AWS accounts or applications\. In this case you have two options: You can configure [Automatic Provisioning](provision-automatically.md), or you can configure [Manual Provisioning](provision-manually.md) of your users and groups\. Regardless of how you provision users, AWS SSO redirects the AWS Management Console, command line interface, and application authentication to your Azure AD\. AWS SSO then grants access to those resources based on policies you create in AWS SSO\. For more information about provisioning, see [User and group provisioning](users-groups-provisioning.md#user-group-provision)\.
+When using an external IdP, you must provision all users and groups into AWS SSO before you can make any assignments to AWS accounts or applications\. In this case you have two options: You can configure [Automatic Provisioning](provision-automatically.md), or you can configure [Manual Provisioning](provision-manually.md) of your users and groups\. Regardless of how you provision users, AWS SSO redirects the AWS Management Console, command line interface, and application authentication to your external identity provider, for example Azure AD\. AWS SSO then grants access to those resources based on policies you create in AWS SSO\. For more information about provisioning, see [User and group provisioning](users-groups-provisioning.md#user-group-provision)\.
 
 ## How to Connect to an External Identity Provider<a name="how-to-connect-idp"></a>
 
